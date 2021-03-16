@@ -1,3 +1,4 @@
+/*
 package com.cg.customermgt.item.dao;
 
 import com.cg.customermgt.item.entities.Item;
@@ -8,3 +9,5 @@ public interface IItemDao
     public Item update(Item item);
     public Item findByID(String itemID);
 }
+
+*/

@@ -1,3 +1,4 @@
+/*
 package com.cg.customermgt.customer.dao;
 
 import javax.persistence.EntityManager;
@@ -35,3 +36,5 @@ public class CustomerDaoImpl implements ICustomerDao{
 		return customer;
 	}
 }
+
+*/

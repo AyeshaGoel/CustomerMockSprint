@@ -16,5 +16,4 @@ public interface ICustomerService {
 
     Set<Item> itemsBoughtByCustomer(Long customerId);
     
-    Customer update(Long id,String name);
 }

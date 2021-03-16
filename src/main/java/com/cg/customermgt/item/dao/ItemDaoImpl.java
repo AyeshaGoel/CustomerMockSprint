@@ -1,9 +1,9 @@
+/*
 package com.cg.customermgt.item.dao;
 
 import com.cg.customermgt.item.entities.Item;
 import org.springframework.stereotype.Repository;
 
-import java.util.Random;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -13,15 +13,7 @@ public class ItemDaoImpl implements IItemDao {
 	
 	
 	@PersistenceContext
-	private EntityManager entityManager;
-
-	
-	public String generateItemId() {
-		Random random = new Random();
-		Integer n = 1000000000 + random.nextInt(900000000);
-		String itemId = n.toString();
-		return itemId;
-	}	 
+	private EntityManager entityManager; 
 	 
 	@Override
 	public Item add(Item item) {
@@ -44,3 +36,5 @@ public class ItemDaoImpl implements IItemDao {
 		return item;
 	}
 }
+
+*/

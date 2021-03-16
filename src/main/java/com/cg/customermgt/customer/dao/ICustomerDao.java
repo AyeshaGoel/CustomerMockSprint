@@ -1,3 +1,4 @@
+/*
 package com.cg.customermgt.customer.dao;
 
 import com.cg.customermgt.customer.entities.Customer;
@@ -13,3 +14,4 @@ public interface ICustomerDao {
 }
 
 
+*/
