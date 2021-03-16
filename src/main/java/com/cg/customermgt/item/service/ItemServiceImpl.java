@@ -3,15 +3,16 @@ package com.cg.customermgt.item.service;
 import com.cg.customermgt.customer.dao.ICustomerDao;
 import com.cg.customermgt.item.dao.IItemDao;
 import com.cg.customermgt.item.entities.Item;
+import com.cg.customermgt.customer.entities.Customer;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
-import java.util.HashSet;
 import java.util.Set;
 
-import com.cg.customermgt.customer.entities.Customer;
 import javax.persistence.EntityManager;
 
 @Service
